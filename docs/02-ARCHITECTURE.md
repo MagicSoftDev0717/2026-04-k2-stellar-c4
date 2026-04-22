@@ -286,12 +286,12 @@ sequenceDiagram
     SwapAdapter->>Token: transfer_from(from, to, amount)
     Token-->>SwapAdapter: Transfer complete
 ```
+```
     -Adapter can now call token.transfer()
 ```
 
----
 
-## Data Flow
+## **Data Flow**
 
 ### **Supply Operation**
 ```
